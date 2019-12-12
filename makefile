@@ -1,4 +1,7 @@
 
-all:
-	g++ -std=c++17 main.cpp
+all:a.out
 	./a.out
+
+a.out:main.cpp
+	g++ -std=c++17 main.cpp
+	
